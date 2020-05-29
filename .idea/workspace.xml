@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dfffd8d-6d59-456a-8c3f-ccb286e0fd8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/generated/prisma-client/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/prisma-client/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/prisma-client/prisma-schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/prisma.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/Subscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolvers/Subscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/Vote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema.graphql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +34,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cLqBzFJwuC9gRY8pTGGsCDELHL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,7 +76,7 @@
       <workItem from="1590726007288" duration="7422000" />
       <workItem from="1590743711872" duration="63000" />
       <workItem from="1590743788773" duration="347000" />
-      <workItem from="1590745174995" duration="17000" />
+      <workItem from="1590745174995" duration="5589000" />
     </task>
     <servers />
   </component>
@@ -73,11 +86,18 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.prisma" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="411" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590318950513">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="411" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-1920.-376.1920.1057@0.23.1440.877" timestamp="1590318950513" />
+    <state x="-742" y="26" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590756735086">
+      <screen x="-1920" y="-256" width="1920" height="1057" />
+    </state>
+    <state x="-742" y="26" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1920.-256.1920.1057@-1920.-256.1920.1057" timestamp="1590756735086" />
     <state x="-815" y="-141" width="670" height="676" key="search.everywhere.popup" timestamp="1590331165273">
       <screen x="-1920" y="-376" width="1920" height="1057" />
     </state>

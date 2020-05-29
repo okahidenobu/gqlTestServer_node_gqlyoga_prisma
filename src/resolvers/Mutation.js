@@ -47,6 +47,12 @@ function post(parent, args, context, info) {
   )
 }
 
+function deleteLink(parent, args, context, info) {
+  return context.prisma.deleteLink({
+    id: args.id,
+  })
+}
+
 // async function vote(parent, args, context, info) {
 //   // const userId = getUserId(context)
 //
@@ -68,5 +74,5 @@ module.exports = {
   // signup,
   // login,
   post,
-  // vote
+  deleteLink
 }

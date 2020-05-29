@@ -4,21 +4,16 @@ type Query {
 }
 
 type Mutation {
-    #    post(url:String!,description:String!):Link!
     post(description:String!):Link!
     #    signup(email:String!,password:String!,name:String!):AuthPayload
     #    login(email:String!, password:String!): AuthPayload
-    #    vote(linkId:ID!):Vote
-    # Update a link
     #    updateLink(id: ID!, url: String, description: String): Link
-
-    # Delete a link
-    #    deleteLink(id: ID!): Link
+    deleteLink(id: ID!): Link
 }
 
 type Subscription {
     newLink: Link
-    #    newVote:Vote
+    #    deletedLink:Link
 }
 
 #
@@ -39,11 +34,4 @@ type Link{
     description: String!
     #    url: String!
     #    postedBy:User
-    #    votes:[Vote!]!
 }
-#
-#type Vote {
-#    id:ID!
-#    link:Link!
-#    user:User!
-#}
