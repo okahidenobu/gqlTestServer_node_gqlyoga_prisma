@@ -5,7 +5,6 @@
 ```
 prisma deploy
 ```
-を実行
 
 最初の選択でDemo server + MySQL database      Free development environment hosted in Prisma Cloud を選択。
 その後の選択は何も入力せずenterキー押下。
