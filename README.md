@@ -14,10 +14,9 @@ prisma deploy
 ```
 prisma generate
 ```
-を実行
 
 3. 
 ```
 node src/index.js
 ```
-を実行
+
