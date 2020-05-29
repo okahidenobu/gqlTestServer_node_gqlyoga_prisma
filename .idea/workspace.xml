@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dfffd8d-6d59-456a-8c3f-ccb286e0fd8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generated/prisma-client/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/prisma-client/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/prisma-client/prisma-schema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/prisma.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/Subscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolvers/Subscription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/Vote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
       <workItem from="1590726007288" duration="7422000" />
       <workItem from="1590743711872" duration="63000" />
       <workItem from="1590743788773" duration="347000" />
-      <workItem from="1590745174995" duration="5589000" />
+      <workItem from="1590745174995" duration="5925000" />
     </task>
     <servers />
   </component>
