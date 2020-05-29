@@ -19,3 +19,5 @@ prisma generate
 node src/index.js
 ```
 
+
+http://localhost:4000(Playground)で簡易的にAPIのテストができる。
