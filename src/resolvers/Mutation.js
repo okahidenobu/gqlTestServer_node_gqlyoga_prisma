@@ -36,7 +36,7 @@ const {APP_SECRET, getUserId} = require('../utils')
 // }
 
 
-function post(parent, args, context, info) {
+function createLink(parent, args, context, info) {
   // const userId = getUserId(context)
 
   return context.prisma.createLink({
@@ -44,6 +44,15 @@ function post(parent, args, context, info) {
       // postedBy: {connect: {id: userId}}
     }
   )
+}
+
+function updateLink(parent, args, context, info) {
+  // const userId = getUserId(context)
+
+  return context.prisma.updateLink({
+    data: {description: args.description},
+    where: {id: args.id}
+  })
 }
 
 function deleteLink(parent, args, context, info) {
@@ -73,6 +82,7 @@ function deleteLink(parent, args, context, info) {
 module.exports = {
   // signup,
   // login,
-  post,
-  deleteLink
+  createLink,
+  deleteLink,
+  updateLink
 }
