@@ -1,5 +1,5 @@
 # The HTTP endpoint for your Prisma API
-#endpoint: ''
+#endpoint: http://localhost:4466/
 endpoint: https://us1.prisma.sh/okahidenobu-bc14ac/gqlTestServer_node_gqlyoga_prisma/dev
 
 
